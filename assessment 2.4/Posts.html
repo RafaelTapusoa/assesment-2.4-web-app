@@ -28,6 +28,23 @@
           font-size: 3.5rem;
         }
       }
+
+      .caption-body{
+        width: 82%
+        margin-left: 60px
+      }
+
+      .caption-body textarea{
+        resize: none;
+        margin-top: 40px;
+        height: 80px;
+        width: 100%;
+        border: 1px solid red;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 14px;
+      }
+
     </style>
 
 
@@ -93,7 +110,7 @@
 
 
 
-
+<!-- post 1 -->
               <div class="col">
                 <div class="card shadow-sm">
                   <form runat="server">
@@ -104,9 +121,9 @@
 
                   <div class="card-body">
 
-
-                    <div class="tweet-body">
-                    <form method="post" enctype="multipart/form-data">
+                    <!-- caption area for the user to input their review -->
+                    <div class="caption-body">
+                        <form method="post" enctype="multipart/form-data">
                         <textarea class="status" name="status" placeholder="Write your post here!" rows="4" cols="42"></textarea>
                     </div>
 
@@ -125,6 +142,7 @@
             </input>
 
 
+<!-- example post -->
             <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
