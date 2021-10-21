@@ -99,3 +99,35 @@ body {
     background-color: #333;
     border: 1px solid #333;
 }
+
+
+
+.caption-body{
+  width: 82%
+  margin-left: 60px
+}
+
+.caption-body textarea{
+  resize: none;
+  margin-top: 40px;
+  height: 80px;
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
